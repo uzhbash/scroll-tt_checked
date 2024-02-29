@@ -376,7 +376,7 @@ async def mint_nft(account_id, key, recipient):
     contracts - list NFT contract addresses
     """
 
-    contracts = [""]
+    contracts = ["0xd878885c59fd5aa51f9b94682150b40b74354a91]
 
     minter = Minter(account_id, key, recipient)
     await minter.mint_nft(contracts)
